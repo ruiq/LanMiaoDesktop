@@ -1,15 +1,5 @@
 <template>
-    <v-layout>
-        <v-btn
-                color="orange"
-                fixed
-                bottom
-                right
-                fab
-                @click="dialogShow = true"
-        >
-            <v-icon>add</v-icon>
-        </v-btn>
+    <v-flex>
         <v-dialog v-model="dialogShow" max-width="600px">
             <v-card>
                 <v-card-title>
@@ -117,7 +107,7 @@
                 Close
             </v-btn>
         </v-snackbar>
-    </v-layout>
+    </v-flex>
 </template>
 
 <script>

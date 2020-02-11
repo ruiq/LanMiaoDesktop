@@ -70,6 +70,7 @@ function createLoginWindow() {
         useContentSize: true,
         frame: false, // 无边框
         transparent: true, // 透明
+        backgroundColor:0x00FFFFFF,
         // fullscreen: true, // 全屏,
         resizable: false,
         maximizable: false,

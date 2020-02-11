@@ -15,15 +15,15 @@
                             elevation="12"
                             max-width="calc(100% - 32px)"
                     >
-                        <h1 class="">Log in</h1>
+                        <h1 class="">登录</h1>
                         <v-flex>
-                            <v-btn small flat icon>
+                            <v-btn small text icon>
                                 <v-icon>filter_1</v-icon>
                             </v-btn>
-                            <v-btn small flat icon>
+                            <v-btn small text icon>
                                 <v-icon>filter_2</v-icon>
                             </v-btn>
-                            <v-btn small flat icon>
+                            <v-btn small text icon>
                                 <v-icon>filter_3</v-icon>
                             </v-btn>
                         </v-flex>
@@ -56,7 +56,7 @@
                             ></v-text-field>
 
                             <v-btn
-                                    flat
+                                    text
                                     block
                                     color="orange"
                                     class="mt-4"
